@@ -1,0 +1,424 @@
+html,
+body,   
+#cover{
+    height: 100vh;
+}
+#cover{
+    background : url('https://iveoelectronics.com/wp-content/uploads/2021/03/deneme.gif') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover;
+    -moz-background-size:cover ;
+    z-index:-1 ;
+    /* opacity: 0.9; */
+    
+    
+
+}
+.bg-dark, .navbar-inner{
+    background:transparent;
+}
+
+.navbar{
+    transition: .2s;
+}
+.navbar-brand span{
+    color: #78a0a9;
+}
+
+.fixed-top{
+    max-width:cover;
+    margin: 7px ;
+    border-radius: 20px;
+    
+}
+.navbar-inner {
+    background:transparent;
+}
+.nav{
+background-size: cover;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+ 
+    font-size:16px;
+    color: rgba(234, 243, 243);
+    text-shadow: 2px 2px 3px rgb(203, 209, 97); 
+
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family:'Montserrat',sans-serif ;
+    font-size: 15px;
+    color: rgba(234, 243, 243, 0.9);
+    text-shadow: 2px 2px #198cd2; 
+    transition: 1.5s;
+    -webkit-transition:color 1.5s;
+    -moz-transition:color 1.5s;
+    -o-transition:color 1.5s;
+    transition: duration 1.5s;
+    
+}
+h1{
+    margin-top: 20%;
+    font-family: droid-serif, serif;
+    font-size: 25px;
+    font-style:italic;
+    color:#ffffff;
+    margin-bottom: 30px;
+    -webkit-text-stroke: 0.7px  #777e72bd ;
+    text-shadow: 2px 2px 5px #198cd2;
+    
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#ffffff;
+    font: size 85px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    -webkit-text-stroke: 0.7px  #777e72bd;
+    text-shadow: 2px 2px #198cd2; 
+   
+
+}
+.btn-primary{
+    background-color: #63636375;
+    border-style:none;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.7px  #777e72bd ;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    padding: 15px 20px;
+    box-shadow: 2px 2px  #198cd2;
+}
+.btn-primary:hover{
+    color: rgba(234, 243, 243);
+    text-shadow: 2px 2px 3px rgb(203, 209, 97);
+    background-color: #63636375;
+    border-style:none;
+    font-weight:bolder;
+    -webkit-text-stroke: 0.7px  #777e72bd ;
+    
+}
+#services{
+    padding:120px;
+    background-color: rgba(232, 229, 226, 0.535);
+    
+}
+
+
+.services-top h3{
+    font-family:'Montserrat',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.services-top p{
+    font-family: 'Droid Serif',serif;
+    font-size:16px;
+    font-style: italic;
+    color:#777;
+    margin-bottom: 70px;
+}
+.item-big-circle{
+    border:5px solid #7996aa;
+    width: 112px;
+    height: 112px;
+    margin:0 auto;
+    border-radius: 200px;
+}
+.item-circle{
+    border:3px solid #5e6971;
+    width: 100px;
+    height: 100px;
+    margin:0 auto;
+    margin-top:1px;
+    border-radius: 200px;
+}
+.services-content i{
+    color:#198cd2;
+    line-height: 100px;
+}
+.services-content h4{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 24px ;
+    
+}
+.services-content p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color:#777;
+}
+#portfolio{
+    background-color: #f7f7f7;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    
+}
+
+.portfolio-top h3{
+    font-family:'Montserrat',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.portfolio-top p{
+    font-family: 'Droid Serif',serif;
+    font-size:16px;
+    font-style: italic;
+    color:#777;
+    margin-bottom: 70px;
+}
+.card{
+    border-style: none;
+}
+.portfolio-content .row{
+    margin-bottom:50px
+}
+.portfolio-content .card-title{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.portfolio-content .card-subtitle{
+    font-family: 'Droid Serif',serif;
+    font-size:14px;
+    font-style: italic;
+}
+#aboutus{
+    padding-top:120px;
+    padding-bottom:30px;
+}
+.aboutus-top h3{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.aboutus-top p{
+    font-family: 'Droid Serif',serif;
+    font-size: 16px;
+    font-style: italic;
+    color:#777;
+    margin-bottom: 70px;
+}
+.aboutus-content .row{
+  margin-bottom: 90px !important;
+}
+.aboutus-content h4{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top:5px;
+}
+.aboutus-content p{
+    font-family: 'Roboto Slab',serif;
+    font-size: 14px;
+    color: #777;
+    margin-top:5px;
+}
+.aboutus-content{
+    position: relative;
+}
+.aboutus-content::before{ 
+    top:0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 4px;
+    background: #edecec;
+    left:50%;
+    margin-left:-2;
+}
+.about-circle{
+    position:relative;
+    text-align: center;
+}
+.about-circle:before{
+    top: 0;
+    bottom:0;
+    position:absolute;
+    content: " ";
+    width:186px;
+    height:186px;
+    background-color: #198cd2;
+    border-radius: 177px;
+    border: 7px solid #f1f1f1;
+    left:50%;
+    margin-left: -87.5px;
+    
+}
+.about-circle .yellow-text{
+    position:relative;
+    z-index: 1;
+    padding-top: 40px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+   
+}
+#team{
+    padding-top: 120px;
+    padding-bottom: 70px;
+    background-color: #f9f9f9;
+}
+.team-top h3{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.team-top p{
+    font-family: 'Droid Serif',serif;
+    font-size: 16px;
+    font-style: italic;
+    color:#777;
+    margin-bottom: 70px;
+}
+.team-circle{
+    
+    text-align: center;
+    margin: 0 auto;
+    width: 220px;
+    height: 220px;
+    background-color: #fed136;
+    border-radius: 220px;
+    border: 6px solid #f1f1f1;
+    margin-bottom: 20px;
+
+}
+#team .team-content h4{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+
+}
+#team .team-content h5{
+    font-family:'Roboto Slab',serif ;
+    font-size: 14px;
+    margin-left: 2px;
+    color:#777;
+    text-align: center;
+
+}
+.social-icons{
+    list-style-type: none;
+    text-align: center;
+    margin:0;
+    padding-left: 0;
+}
+.social-icon{
+    display: inline;
+    padding-left: 6px;
+    padding-right: 6px;
+  
+    
+}
+.social-icon .fab{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid rgba(61, 56, 56);
+    line-height: 26px;
+}
+.team-content p{
+    margin:50px auto;
+    font-family:'Roboto Slab',serif ;
+    font-size: 14px;
+    color:#777;
+}
+#partner{
+    color: white;
+    background-color: #63636375;
+    padding: 60px 0;
+    z-index:1 ;
+    opacity: 0.5; 
+    height: 80px;
+}
+#partner.col-sm-3 .img{
+    z-index:-1 ;
+    opacity: 0.5; 
+    
+}
+#contact{
+    background : url('../images/firtssection.png') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover;
+    -moz-background-size:cover ;
+    z-index:-1 ;
+    opacity:0.8;
+    padding:120px 0px;
+}
+.contact-top h3{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(230, 228, 228);
+
+}
+.contact-top p{
+    font-family: 'Droid Serif',serif;
+    font-size: 16px;
+    font-style: italic;
+    color:rgb(143, 141, 141);
+    margin-bottom: 70px;
+}
+#name, #E-mail, #subject{
+    width: 80%;
+    height: 45px;
+    margin-bottom: 26px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin-left: 10%;
+}
+textarea{
+    width: 80%;
+    height: 187px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-style: none;
+    border-radius: 3px;
+    margin-left: 10%;
+}
+.golden-form-element{
+    font-size: 14px;
+}
+#footer{
+    padding:20px 0;
+
+}
+#footer p{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(85, 85, 85);
+    line-height: 40px;
+}
+.footer-social-icons{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+
+}
+.footer-social-icon{
+    display: inline;
+    padding-left: 9px;
+    padding-right:9px;
+    color:#ffff;
+
+}
+.footer-social-icon .fab{
+    height: 40px;
+    width: 40px;
+    background: #4c828e;
+    border-radius: 40px;
+    line-height: 40px;
+    
+}
